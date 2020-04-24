@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Santa Maria Bar</title>
+</head>
+
+<body>
+    <h1>Encuesta</h1>
+    <div id="formulario">
+        <form action="" method="" target="">
+            <h2>¿De donde sos?</h2>
+            <select name="pais" id="pais">
+            <option value="d" selected disabled>Selecciona una opcion</option>
+            <option value="ar">Argentina</option>
+            <option value="br">Brasil</option>
+            <option value="cl">Chile</option>
+            <option value="otros">Otros</option>
+        </select>
+
+            <h2>¿Qué te parecio la iluminacion del ambiente?</h2>
+            <input type="checkbox" value="mb" name="muy-bien">Muy acorde
+            <br>
+            <input type="checkbox" value="b" name="buena">Buena, pero podria mejorar
+            <br>
+            <input type="checkbox" value="m" name="mala ">Mala
+
+            <h2>¿Qué tipo de plato fue el que mas te gusto?</h2>
+            <input type="checkbox" name="entrada" value="entrada">Entrada
+            <br>
+            <input type="checkbox" name="plato-principal" value="principal">Plato principal
+            <br>
+            <input type="checkbox" name="postre" value="postre">Postre
+            <br>
+            <input type="checkbox" name="otros" value="otros">Otros
+
+            <h2>¿Recomendarias el lugar?</h2>
+            <input type="radio" name="si" value="y">Si
+            <input type="radio" name="no" value="n">No
+
+            <h2>¿Porqué?</h2>
+            <textarea name="opinion" value="op" cols="70" rows="8"></textarea>
+
+            <h2>Dejanos tus datos y nos pondremos en contacto con vos</h2>
+            <span>
+            Nombre: <input type="text" name="nombre" id="name" placeholder="tu nombre" required>
+        </span>
+            <span>
+            Email: <input type="email" name="email" id="email" placeholder="tu email" required>
+        </span>
+
+            <input type="submit" value="Enviar" class="bd-rd form-enviar">
+            <input type="reset" value="Resetear" class="bd-rd form-resetear"><br><br>
+        </form>
+    </div>
+    <footer id="contenedorD">
+        <div id="logo"> <img src="img/logo-web.png " width="40%" height="50%" alt="logo"></div>
+        <div id="redes sociales">
+            <img src="img/facebook-square-brands.svg" width="20px" height="20px">
+            <img src="img//instagram-square-brands.svg" width="20px" height="20px"> </div>
+
+        <p> <br>
+            <br>
+            <a href="index.html ">Home</a><br>
+            <a href="contacto.html ">Contáctanos</a><br>
+            <a href="formulario.html ">Dejanos tu opinión</a>
+        </p>
+    </footer>
+</body>
+
+
+</html>
